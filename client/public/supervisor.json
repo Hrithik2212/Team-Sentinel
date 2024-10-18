@@ -1,0 +1,155 @@
+{
+    "info":{
+                    "id":2,
+                    "name":"Emily Johnson",
+                    "role":"supervisor"
+    },
+    "data":[
+        {
+            "id": "1",
+            "manager": "Dorothy Davis",
+            "supervisor": "Margaret Jones" ,
+            "email": "shxwpj@mail.com",
+            "truck_number": "6BOK13Q",
+            "driver": "nkHHDA",
+            "Crew": 4,
+            "Crew_data": [
+                {
+                    "id": "KGBW0Q",
+                    "name": "QbUedN",
+                    "email": "qbuedn@example.com",
+                    "number": "6045884053"
+                },
+                {
+                    "id": "0TSH2I",
+                    "name": "CIjscl",
+                    "email": "cijscl@example.com",
+                    "number": "5086042682"
+                },
+                {
+                    "id": "5Y7R7E",
+                    "name": "JOcueq",
+                    "email": "jocueq@test.org",
+                    "number": "5516733732"
+                },
+                {
+                    "id": "9WXU4E",
+                    "name": "eOUEsJ",
+                    "email": "eouesj@mail.com",
+                    "number": "6670196674"
+                }
+            ],
+            "arrival": "2024-02-08 08:55:30",
+            "number": "8824892795",
+            "priority_level": 2,
+            "dock": 1,
+            "state": "Pending"
+        },
+        {
+            "id": "2",
+            "manager": "Dorothy Davis",
+            "supervisor": "Patricia Smith" ,
+            "email": "vnunze@mail.com",
+            "truck_number": "72LXEY6",
+            "driver": "fFqFtY",
+            "Crew": null,
+            "Crew_data": null,
+            "arrival": "2023-03-06 18:49:07",
+            "number": "1788038990",
+            "priority_level": 4,
+            "dock": 2,
+            "state": "Completed"
+        },
+        {
+            "id": "3",
+            "manager": "Dorothy Davis",
+            "supervisor": "Joseph Rodriguez" ,
+            "email": "snwhvw@example.com",
+            "truck_number": "N1VRTW8",
+            "driver": "cotKzJ",
+            "Crew": 1,
+            "Crew_data": [
+                {
+                    "id": "BGWXOQ",
+                    "name": "vZswVj",
+                    "email": "vzswvj@test.org",
+                    "number": "1768496882"
+                }
+            ],
+            "arrival": "2023-12-23 06:48:25",
+            "number": "1005024154",
+            "priority_level": 3,
+            "dock": 3,
+            "state": "Processing"
+        },
+        {
+            "id": "4",
+            "manager": "Dorothy Davis",
+            "supervisor": "James Jones" ,
+            "email": null,
+            "truck_number": "70OTECU",
+            "driver": "qHPVVx",
+            "Crew": 4,
+            "Crew_data": [
+                {
+                    "id": "FURPSE",
+                    "name": "HzeFts",
+                    "email": "hzefts@example.com",
+                    "number": "4962677872"
+                },
+                {
+                    "id": "MFI6ID",
+                    "name": "pziSOS",
+                    "email": "pzisos@example.com",
+                    "number": "5727681707"
+                },
+                {
+                    "id": "YQ1TMY",
+                    "name": "fvhnMT",
+                    "email": "fvhnmt@test.org",
+                    "number": "3172322294"
+                },
+                {
+                    "id": "52DQTB",
+                    "name": "AchKjl",
+                    "email": "achkjl@test.org",
+                    "number": "4157511018"
+                }
+            ],
+            "arrival": "2023-04-13 14:31:36",
+            "number": null,
+            "priority_level": 1,
+            "dock": 2,
+            "state": "Pending"
+        },
+        {
+            "id": "5",
+            "manager": "Dorothy Davis",
+            "supervisor": "Lisa Rodriguez" ,
+            "email": "pdlozz@example.com",
+            "truck_number": "BLFLPKN",
+            "driver": "kMnKdz",
+            "Crew": 2,
+            "Crew_data": [
+                {
+                    "id": "PDT3QP",
+                    "name": "RMwYZu",
+                    "email": "rmwyzu@test.org",
+                    "number": "1760010498"
+                },
+                {
+                    "id": "9O8HAY",
+                    "name": "kmbvOm",
+                    "email": "kmbvom@test.org",
+                    "number": "8603634664"
+                }
+            ],
+            "arrival": "2023-01-25 10:54:46",
+            "number": "4782906244",
+            "priority_level": 1,
+            "dock": 3,
+            "state": "Completed"
+        }
+    ]
+    
+}
