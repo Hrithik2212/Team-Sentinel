@@ -1,0 +1,607 @@
+{
+    "root": {
+        "page": [
+            {
+                "pageurl": "http://www.flipkart.com/marami-plain-decorative-cushion/p/itmekych5gxh4rxn?pid=PLWEKYCHCCVYEPSA",
+                "record": {
+                    "uniq_id": "ec78c26c3fc64f569456a5bf673a61de",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/marami-plain-decorative-cushion/p/itmekych5gxh4rxn?pid=PLWEKYCHCCVYEPSA",
+                    "product_name": "marami plain Decorative Cushion",
+                    "product_category_tree": [
+                        "Home Furnishing >> Living Room Furnishing >> marami Living Room Furnishing >> marami plain Decorative Cushion (Yellow)"
+                    ],
+                    "pid": "PLWEKYCHCCVYEPSA",
+                    "subtitle": "Yellow",
+                    "retail_price": "999",
+                    "discounted_price": "499",
+                    "image": [
+                        "http://img5a.flixcart.com/image/pillow/p/s/a/cuma2046-marami-smiley-pillow-1100x1100-imaejztvtaag2ycs.jpeg",
+                        "http://img6a.flixcart.com/image/pillow/p/s/a/cuma2046-marami-smiley-pillow-original-imaejztvtaag2ycs.jpeg",
+                        "http://img6a.flixcart.com/image/pillow/p/s/a/cuma2046-marami-smiley-pillow-original-imaegv2hkgmffvby.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "Key Features of marami plain Decorative Cushion Outer Material: velvet Filling Material: Cotton Height: 13 cm,Specifications of marami plain Decorative Cushion (Yellow) General External Material velvet Brand marami Type Decorative Cushion Model Name smiley pillow Filling Material Cotton Model ID CUMA2046 Color Yellow Dimensions Length 13 cm Width 13 cm Depth 4 cm",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "marami",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "External Material",
+                                "value": "velvet"
+                            },
+                            {
+                                "key": "Brand",
+                                "value": "marami"
+                            },
+                            {
+                                "key": "Type",
+                                "value": "Decorative Cushion"
+                            },
+                            {
+                                "key": "Model Name",
+                                "value": "smiley pillow"
+                            },
+                            {
+                                "key": "Filling Material",
+                                "value": "Cotton"
+                            },
+                            {
+                                "key": "Model ID",
+                                "value": "CUMA2046"
+                            },
+                            {
+                                "key": "Color",
+                                "value": "Yellow"
+                            },
+                            {
+                                "key": "Length",
+                                "value": "13 cm"
+                            },
+                            {
+                                "key": "Width",
+                                "value": "13 cm"
+                            },
+                            {
+                                "key": "Depth",
+                                "value": "4 cm"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wzvrzhwzdf?pid=WBTEK2WZVP7VNUSC",
+                "record": {
+                    "uniq_id": "e65a89bca0f6e547ad65955640e661ac",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wzvrzhwzdf?pid=WBTEK2WZVP7VNUSC",
+                    "product_name": "SKY TRENDS White Sipper 600 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> SKY TRENDS Water Bottles >> SKY TRENDS White Sipper 600 ml Water Bottle (Set..."
+                    ],
+                    "pid": "WBTEK2WZVP7VNUSC",
+                    "subtitle": "Set of 1, White",
+                    "retail_price": "899",
+                    "discounted_price": "429",
+                    "image": [
+                        "http://img6a.flixcart.com/image/water-bottle/u/s/c/sky-trends-sky-trends-expect-nothing-and-you-will-never-best-1100x1100-imaek22qa9hyqzp4.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/u/s/c/sky-trends-sky-trends-expect-nothing-and-you-will-never-best-original-imaek22qa9hyqzp4.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/u/s/c/sky-trends-sky-trends-expect-nothing-and-you-will-never-best-original-imaegxswpzahtjc2.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) Price: Rs. 429 .The Classy Woman Sipper is a part of collection of cool stuff for adorable woman. Gift it to the special lady of your life and make her feel special. A convenient Aluminium 600 ml water bottle which is great for sports, hiking, college and other outdoor activities. Just clip onto your bag or back pack and your ready to go. The Great Gifts For Birthday And Anniversary.,Specifications of SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) General Model Name Sky Trends Expect Nothing And You Will Never Best Gifts For Birthday And Anniversary Sipper Series White Sipper Packaging Sipper Dimensions Weight 200 g Warranty Life Time Print Warranty Water Bottle Features Cap Type Tip Open Water Bottle Capacity 600 ml In the Box 1 Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "SKY TRENDS",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Model Name",
+                                "value": "Sky Trends Expect Nothing And You Will Never Best Gifts For Birthday And Anniversary Sipper"
+                            },
+                            {
+                                "key": "Series",
+                                "value": "White Sipper"
+                            },
+                            {
+                                "key": "Packaging",
+                                "value": "Sipper"
+                            },
+                            {
+                                "key": "Weight",
+                                "value": "200 g"
+                            },
+                            {
+                                "value": "Life Time Print Warranty"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "600 ml"
+                            },
+                            {
+                                "value": "1 Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/ohanna-sports-800-ml-water-bottle/p/itmekf3mgf8znfsv?pid=WBTEKF3MTMZDXCGT",
+                "record": {
+                    "uniq_id": "2e68228d7cc1018927db232764df7119",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/ohanna-sports-800-ml-water-bottle/p/itmekf3mgf8znfsv?pid=WBTEKF3MTMZDXCGT",
+                    "product_name": "Ohanna Sports 800 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> Ohanna Water Bottles >> Ohanna Sports 800 ml Water Bottle (Set of 1, Black)"
+                    ],
+                    "pid": "WBTEKF3MTMZDXCGT",
+                    "subtitle": "Set of 1, Black",
+                    "retail_price": "799",
+                    "discounted_price": "799",
+                    "image": [
+                        "http://img6a.flixcart.com/image/water-bottle/c/g/t/ohanna-fcyma019-original-imaegpgzcujgfwng.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/c/g/t/ohanna-fcyma019-original-imaegpgzygghwf6j.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/c/g/t/ohanna-fcyma019-original-imaegpgzh4snnmgb.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "Key Features of Ohanna Sports 800 ml Water Bottle Sports Durable Water Bottle Comfortably Carry Trendy Easy Filling BPA free water bottle 100% Recyclable Designed for better utility Durable for home kitchen or personal utility,Ohanna Sports 800 ml Water Bottle (Set of 1, Black) Price: Rs. 799 This water bottle is trendy and is in sports design pattern. You can carry water, juice, milk and other fluids in this bottle. It has easy to open cap and has wide mouth for easy filling and cleaning of bottle. Highly Durable bottle with hook for hanging. Material : Stainless Steel, Capacity : 800 ml.,Specifications of Ohanna Sports 800 ml Water Bottle (Set of 1, Black) General Model Name FCYMA019 Series Sports Water Bottle Features Cap Type Tip Open Other Water Bottle Features Sports, Durable, Water Bottle, Comfortably Carry, Trendy, Easy Filling, BPA free water bottle Water Bottle Capacity 800 ml In the Box Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "Ohanna",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Model Name",
+                                "value": "FCYMA019"
+                            },
+                            {
+                                "key": "Series",
+                                "value": "Sports"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Other Water Bottle Features",
+                                "value": "Sports, Durable, Water Bottle, Comfortably Carry, Trendy, Easy Filling, BPA free water bottle"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "800 ml"
+                            },
+                            {
+                                "value": "Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/ohanna-sports-750-ml-water-bottle/p/itmekf3zhwvgdjhf?pid=WBTEKF3ZGRRSQG4F",
+                "record": {
+                    "uniq_id": "9bc48178209e34c6310e83839a9c8a56",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/ohanna-sports-750-ml-water-bottle/p/itmekf3zhwvgdjhf?pid=WBTEKF3ZGRRSQG4F",
+                    "product_name": "Ohanna Sports 750 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> Ohanna Water Bottles >> Ohanna Sports 750 ml Water Bottle (Set of 1, Grey)"
+                    ],
+                    "pid": "WBTEKF3ZGRRSQG4F",
+                    "subtitle": "Set of 1, Grey",
+                    "retail_price": "699",
+                    "discounted_price": "699",
+                    "image": [
+                        "http://img5a.flixcart.com/image/water-bottle/g/4/f/ohanna-fcyma026-original-imaegpgzhn3qehmc.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/g/4/f/ohanna-fcyma026-original-imaegpgzhn3qehmc.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/g/4/f/ohanna-fcyma026-original-imaegpgztcp2jrw3.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/g/4/f/ohanna-fcyma026-original-imaegpgzncdg8ezj.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "Key Features of Ohanna Sports 750 ml Water Bottle Sports Durable Water Bottle Comfortably Carry Trendy Easy Filling BPA free water bottle Basic filter inbuilt to keep water pure and clean Designed for better utility Durable for home kitchen or personal utility,Ohanna Sports 750 ml Water Bottle (Set of 1, Grey) Price: Rs. 699 This water bottle is trendy and is in sports design pattern. You can carry water, juice, milk and other fluids in this bottle. It has easy to open cap and has wide mouth for easy filling and cleaning of bottle. Break Proof design, up to 12 feet, even when fully filled. Material : Plastic, Capacity : 750 ml.,Specifications of Ohanna Sports 750 ml Water Bottle (Set of 1, Grey) General Model Name FCYMA026 Series Sports Water Bottle Features Cap Type Tip Open Other Water Bottle Features Sports, Durable, Water Bottle, Comfortably Carry, Trendy, Easy Filling, BPA free water bottle Water Bottle Capacity 750 ml In the Box Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "Ohanna",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Model Name",
+                                "value": "FCYMA026"
+                            },
+                            {
+                                "key": "Series",
+                                "value": "Sports"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Other Water Bottle Features",
+                                "value": "Sports, Durable, Water Bottle, Comfortably Carry, Trendy, Easy Filling, BPA free water bottle"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "750 ml"
+                            },
+                            {
+                                "value": "Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/lgc-women-s-black-pink-capri/p/itmejgjukv2kvf3j?pid=CPIEJGJURQ7TB4ZT",
+                "record": {
+                    "uniq_id": "e9813d0b89e713e374e6c18d42ac37af",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/lgc-women-s-black-pink-capri/p/itmejgjukv2kvf3j?pid=CPIEJGJURQ7TB4ZT",
+                    "product_name": "LGC Women's Black, Pink Capri",
+                    "product_category_tree": [
+                        "Clothing >> Women's Clothing >> Fusion Wear >> Trousers & Capris >> Capris >> LGC Capris >> LGC Women's Black, Pink Capri"
+                    ],
+                    "pid": "CPIEJGJURQ7TB4ZT",
+                    "retail_price": "1399",
+                    "discounted_price": "799",
+                    "image": [
+                        "http://img5a.flixcart.com/image/capri/t/z/m/lgslblk-hpnk01-lgc-xl-original-imaejbdyyzq5wddx.jpeg",
+                        "http://img5a.flixcart.com/image/capri/z/b/z/lgslnblu-hpnk01-lgc-xxl-original-imaegkntvffr6jrc.jpeg",
+                        "http://img5a.flixcart.com/image/capri/z/b/z/lgslnblu-hpnk01-lgc-m-original-imaegknunkkhdn4t.jpeg",
+                        "http://img6a.flixcart.com/image/capri/6/8/x/lgslblk-wht01-lgc-xl-original-imaegkntdxfzc253.jpeg",
+                        "http://img6a.flixcart.com/image/capri/q/p/y/lgslblk-beig01-lgc-xl-original-imaegknunnru9ysz.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "Specifications of LGC Women's Black, Pink Capri Capri Details Number of Contents in Sales Package Pack of 2 Fabric Viscose Lycra Blend Fit Regular Fly Elastic General Details Pattern Solid Ideal For Women's Occasion Beach Wear, Casual, Festive, Formal, Lounge Wear, Party, Sports, Wedding Fabric Care Gentle Machine Wash in Lukewarm Water, Do Not Bleach Additional Details Other Features Pack of 2 In the Box 2 Capri",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "LGC",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Number of Contents in Sales Package",
+                                "value": "Pack of 2"
+                            },
+                            {
+                                "key": "Fabric",
+                                "value": "Viscose Lycra Blend"
+                            },
+                            {
+                                "key": "Fit",
+                                "value": "Regular"
+                            },
+                            {
+                                "key": "Fly",
+                                "value": "Elastic"
+                            },
+                            {
+                                "key": "Pattern",
+                                "value": "Solid"
+                            },
+                            {
+                                "key": "Ideal For",
+                                "value": "Women's"
+                            },
+                            {
+                                "key": "Occasion",
+                                "value": "Beach Wear, Casual, Festive, Formal, Lounge Wear, Party, Sports, Wedding"
+                            },
+                            {
+                                "value": "Gentle Machine Wash in Lukewarm Water, Do Not Bleach"
+                            },
+                            {
+                                "key": "Other Features",
+                                "value": "Pack of 2"
+                            },
+                            {
+                                "value": "2 Capri"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/ohanna-sports-650-ml-water-bottle/p/itmekf3n3rwdbsjj?pid=WBTEKF3NRWYGCZAD",
+                "record": {
+                    "uniq_id": "0eda75599cc6c29f58bbd44722e662da",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/ohanna-sports-650-ml-water-bottle/p/itmekf3n3rwdbsjj?pid=WBTEKF3NRWYGCZAD",
+                    "product_name": "Ohanna Sports 650 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> Ohanna Water Bottles >> Ohanna Sports 650 ml Water Bottle (Set of 1, Blue)"
+                    ],
+                    "pid": "WBTEKF3NRWYGCZAD",
+                    "subtitle": "Set of 1, Blue",
+                    "retail_price": "549",
+                    "discounted_price": "549",
+                    "image": [
+                        "http://img6a.flixcart.com/image/water-bottle/z/a/d/ohanna-fcyma033-original-imaegpgzjjehzg7n.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/z/a/d/ohanna-fcyma033-original-imaegpgzjjehzg7n.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/z/a/d/ohanna-fcyma033-original-imaegpgztdgcnjnz.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/z/a/d/ohanna-fcyma033-original-imaegpgzfvmzj2dv.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/z/a/d/ohanna-fcyma033-original-imaegpgzva2y7hzm.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "Key Features of Ohanna Sports 650 ml Water Bottle Sports Durable Water Bottle Comfortably Carry Trendy Easy Filling BPA free water bottle Basic filter inbuilt to keep water pure and clean Designed for better utility Durable for home kitchen or personal utility,Ohanna Sports 650 ml Water Bottle (Set of 1, Blue) Price: Rs. 549 This water bottle is trendy and is in sports design pattern. You can carry water, juice, milk and other fluids in this bottle. It has easy to open cap and has wide mouth for easy filling and cleaning of bottle. Break Proof design, up to 12 feet, even when fully filled. Material : Plastic, Capacity : 650 ml.,Specifications of Ohanna Sports 650 ml Water Bottle (Set of 1, Blue) General Model Name FCYMA033 Series Sports Water Bottle Features Cap Type Tip Open Other Water Bottle Features Sports, Durable, Water Bottle, Comfortably Carry, Trendy, Easy Filling, BPA free water bottle Water Bottle Capacity 650 ml In the Box Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "Ohanna",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Model Name",
+                                "value": "FCYMA033"
+                            },
+                            {
+                                "key": "Series",
+                                "value": "Sports"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Other Water Bottle Features",
+                                "value": "Sports, Durable, Water Bottle, Comfortably Carry, Trendy, Easy Filling, BPA free water bottle"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "650 ml"
+                            },
+                            {
+                                "value": "Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wzzkkguszm?pid=WBTEK2WZFN92HTFX",
+                "record": {
+                    "uniq_id": "87ef73630f64944fd06063e804d09eae",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wzzkkguszm?pid=WBTEK2WZFN92HTFX",
+                    "product_name": "SKY TRENDS White Sipper 600 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> SKY TRENDS Water Bottles >> SKY TRENDS White Sipper 600 ml Water Bottle (Set..."
+                    ],
+                    "pid": "WBTEK2WZFN92HTFX",
+                    "subtitle": "Set of 1, White",
+                    "retail_price": "899",
+                    "discounted_price": "429",
+                    "image": [
+                        "http://img6a.flixcart.com/image/water-bottle/t/f/x/sky-trends-sky-trends-it-s-good-to-be-king-red-best-gifts-for-1100x1100-imaek22q8ccagdrc.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/t/f/x/sky-trends-sky-trends-it-s-good-to-be-king-red-best-gifts-for-original-imaek22q8ccagdrc.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/j/6/v/sky-trends-sky-trends-i-love-my-boyfriend-gifts-for-birthday-and-original-imaegxswpzahtjc2.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) Price: Rs. 429 .The Classy Woman Sipper is a part of collection of cool stuff for adorable woman. Gift it to the special lady of your life and make her feel special. A convenient Aluminium 600 ml water bottle which is great for sports, hiking, college and other outdoor activities. Just clip onto your bag or back pack and your ready to go. The Great Gifts For Birthday And Anniversary.,Specifications of SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) General Model Name Sky Trends It's Good To Be King Red Best Gifts For Birthday And Anniversary Sipper Series White Sipper Packaging Sipper Dimensions Weight 200 g Warranty Life Time Print Warranty Water Bottle Features Cap Type Tip Open Water Bottle Capacity 600 ml In the Box 1 Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "SKY TRENDS",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Model Name",
+                                "value": "Sky Trends It's Good To Be King Red Best Gifts For Birthday And Anniversary Sipper"
+                            },
+                            {
+                                "key": "Series",
+                                "value": "White Sipper"
+                            },
+                            {
+                                "key": "Packaging",
+                                "value": "Sipper"
+                            },
+                            {
+                                "key": "Weight",
+                                "value": "200 g"
+                            },
+                            {
+                                "value": "Life Time Print Warranty"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "600 ml"
+                            },
+                            {
+                                "value": "1 Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wxkuv2mdbd?pid=WBTEK2WXHVYUVC5V",
+                "record": {
+                    "uniq_id": "33a499c9c7a13c1e94106fac3d60d6a0",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wxkuv2mdbd?pid=WBTEK2WXHVYUVC5V",
+                    "product_name": "SKY TRENDS White Sipper 600 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> SKY TRENDS Water Bottles >> SKY TRENDS White Sipper 600 ml Water Bottle (Set..."
+                    ],
+                    "pid": "WBTEK2WXHVYUVC5V",
+                    "subtitle": "Set of 1, White",
+                    "retail_price": "899",
+                    "discounted_price": "429",
+                    "image": [
+                        "http://img5a.flixcart.com/image/water-bottle/c/5/v/sky-trends-sky-trends-to-my-friend-thanks-for-being-there-for-me-1100x1100-imaek22qecs4tuvg.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/c/5/v/sky-trends-sky-trends-to-my-friend-thanks-for-being-there-for-me-original-imaek22qecs4tuvg.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/j/6/v/sky-trends-sky-trends-i-love-my-boyfriend-gifts-for-birthday-and-original-imaegxswpzahtjc2.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) Price: Rs. 429 .The Classy Woman Sipper is a part of collection of cool stuff for adorable woman. Gift it to the special lady of your life and make her feel special. A convenient Aluminium 600 ml water bottle which is great for sports, hiking, college and other outdoor activities. Just clip onto your bag or back pack and your ready to go. The Great Gifts For Birthday And Anniversary.,Specifications of SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) General Series White Sipper Model Name Sky Trends To My Friend Thanks For Being There For Me Blue Stylish Gifts For Birthday And Anniversary Bottle Packaging Sipper Warranty Life Time Print Warranty Dimensions Weight 200 g Water Bottle Features Cap Type Tip Open Water Bottle Capacity 600 ml In the Box 1 Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "SKY TRENDS",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Series",
+                                "value": "White Sipper"
+                            },
+                            {
+                                "key": "Model Name",
+                                "value": "Sky Trends To My Friend Thanks For Being There For Me Blue Stylish Gifts For Birthday And Anniversary Bottle"
+                            },
+                            {
+                                "key": "Packaging",
+                                "value": "Sipper"
+                            },
+                            {
+                                "value": "Life Time Print Warranty"
+                            },
+                            {
+                                "key": "Weight",
+                                "value": "200 g"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "600 ml"
+                            },
+                            {
+                                "value": "1 Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wywhmngv2z?pid=WBTEK2WYCPQHEHYG",
+                "record": {
+                    "uniq_id": "d82ad0acf899ceb39ad0b409baafeb64",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wywhmngv2z?pid=WBTEK2WYCPQHEHYG",
+                    "product_name": "SKY TRENDS White Sipper 600 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> SKY TRENDS Water Bottles >> SKY TRENDS White Sipper 600 ml Water Bottle (Set..."
+                    ],
+                    "pid": "WBTEK2WYCPQHEHYG",
+                    "subtitle": "Set of 1, White",
+                    "retail_price": "899",
+                    "discounted_price": "429",
+                    "image": [
+                        "http://img6a.flixcart.com/image/water-bottle/h/y/g/sky-trends-sky-trends-where-there-is-love-gifts-for-birthday-and-1100x1100-imaek22qcahgf4gm.jpeg",
+                        "http://img6a.flixcart.com/image/water-bottle/h/y/g/sky-trends-sky-trends-where-there-is-love-gifts-for-birthday-and-original-imaek22qcahgf4gm.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/u/s/c/sky-trends-sky-trends-expect-nothing-and-you-will-never-best-original-imaegxswpzahtjc2.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) Price: Rs. 429 .The Classy Woman Sipper is a part of collection of cool stuff for adorable woman. Gift it to the special lady of your life and make her feel special. A convenient Aluminium 600 ml water bottle which is great for sports, hiking, college and other outdoor activities. Just clip onto your bag or back pack and your ready to go. The Great Gifts For Birthday And Anniversary.,Specifications of SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) General Series White Sipper Model Name Sky Trends Where There Is Love Gifts For Birthday And Anniversary Sippe Packaging Sipper Warranty Life Time Print Warranty Dimensions Weight 200 g Water Bottle Features Cap Type Tip Open Water Bottle Capacity 600 ml In the Box 1 Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "SKY TRENDS",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Series",
+                                "value": "White Sipper"
+                            },
+                            {
+                                "key": "Model Name",
+                                "value": "Sky Trends Where There Is Love Gifts For Birthday And Anniversary Sippe"
+                            },
+                            {
+                                "key": "Packaging",
+                                "value": "Sipper"
+                            },
+                            {
+                                "value": "Life Time Print Warranty"
+                            },
+                            {
+                                "key": "Weight",
+                                "value": "200 g"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "600 ml"
+                            },
+                            {
+                                "value": "1 Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "pageurl": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wydt7dvpeh?pid=WBTEK2WY2GBFHXP5",
+                "record": {
+                    "uniq_id": "518e2421711b56261cc912460ef38052",
+                    "crawl_timestamp": "2016-06-29 11:58:12 +0000",
+                    "product_url": "http://www.flipkart.com/sky-trends-white-sipper-600-ml-water-bottle/p/itmek2wydt7dvpeh?pid=WBTEK2WY2GBFHXP5",
+                    "product_name": "SKY TRENDS White Sipper 600 ml Water Bottle",
+                    "product_category_tree": [
+                        "Pens & Stationery >> School Supplies >> Water Bottles >> SKY TRENDS Water Bottles >> SKY TRENDS White Sipper 600 ml Water Bottle (Set..."
+                    ],
+                    "pid": "WBTEK2WY2GBFHXP5",
+                    "subtitle": "Set of 1, White",
+                    "retail_price": "899",
+                    "discounted_price": "429",
+                    "image": [
+                        "http://img6a.flixcart.com/image/water-bottle/x/p/5/sky-trends-sky-trends-i-am-so-lucky-that-you-re-my-friend-sweet-1100x1100-imaek22qyhkhyxaz.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/x/p/5/sky-trends-sky-trends-i-am-so-lucky-that-you-re-my-friend-sweet-original-imaek22qyhkhyxaz.jpeg",
+                        "http://img5a.flixcart.com/image/water-bottle/j/6/v/sky-trends-sky-trends-i-love-my-boyfriend-gifts-for-birthday-and-original-imaegxswpzahtjc2.jpeg"
+                    ],
+                    "is_FK_Advantage_product": false,
+                    "description": "SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) Price: Rs. 429 .The Classy Woman Sipper is a part of collection of cool stuff for adorable woman. Gift it to the special lady of your life and make her feel special. A convenient Aluminium 600 ml water bottle which is great for sports, hiking, college and other outdoor activities. Just clip onto your bag or back pack and your ready to go. The Great Gifts For Birthday And Anniversary.,Specifications of SKY TRENDS White Sipper 600 ml Water Bottle (Set of 1, White) General Series White Sipper Model Name Sky Trends I Am So Lucky That You're My Friend Sweet Gifts For Birthday And Anniversay Sipper Packaging Sipper Warranty Life Time Print Warranty Dimensions Weight 200 g Water Bottle Features Cap Type Tip Open Water Bottle Capacity 600 ml In the Box 1 Water Bottle",
+                    "product_rating": "No rating available",
+                    "overall_rating": "No rating available",
+                    "brand": "SKY TRENDS",
+                    "product_specifications": {
+                        "product_specification": [
+                            {
+                                "key": "Series",
+                                "value": "White Sipper"
+                            },
+                            {
+                                "key": "Model Name",
+                                "value": "Sky Trends I Am So Lucky That You're My Friend Sweet Gifts For Birthday And Anniversay Sipper"
+                            },
+                            {
+                                "key": "Packaging",
+                                "value": "Sipper"
+                            },
+                            {
+                                "value": "Life Time Print Warranty"
+                            },
+                            {
+                                "key": "Weight",
+                                "value": "200 g"
+                            },
+                            {
+                                "key": "Cap Type",
+                                "value": "Tip Open"
+                            },
+                            {
+                                "key": "Water Bottle Capacity",
+                                "value": "600 ml"
+                            },
+                            {
+                                "value": "1 Water Bottle"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
