@@ -1,3 +1,8 @@
+*.png
+*.avi
+*.csv
+*.mp4
+.gitignore
 # Logs
 logs
 *.log
@@ -23,7 +28,6 @@ client/dist-ssr
 *.sln
 *.sw?
 *__pycache__
-
-venv
-server/venv
-server/.env
+Notebooks/Models/yolov11m_50epv1.pt
+Notebooks/Models/yolov11m_30ep.pt
+Notebooks/Models/yolov11n_v1.pt
