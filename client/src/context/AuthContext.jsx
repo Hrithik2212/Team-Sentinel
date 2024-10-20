@@ -123,7 +123,7 @@ export const AuthProvider = () =>{
     
     return(
         <AuthContext.Provider value={contextData}>
-            <div className='max-h-screen h-screen  overflow-hidden w-full '>
+            <div className='h-full w-full '>
                 <NavBar/>
                 <div className='max-h-screen h-[90vh] w-full '>
                     <Outlet/>

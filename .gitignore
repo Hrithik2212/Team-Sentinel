@@ -31,3 +31,5 @@ client/dist-ssr
 Notebooks/Models/yolov11m_50epv1.pt
 Notebooks/Models/yolov11m_30ep.pt
 Notebooks/Models/yolov11n_v1.pt
+
+venv

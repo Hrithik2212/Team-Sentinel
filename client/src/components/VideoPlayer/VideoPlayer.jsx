@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 
-const VideoPlayer = ({videoSrc,loading,setVideoSrc,handleUpload}) => {
+const VideoPlayer = ({videoSrc,loading,setVideoSrc,handleUpload,videoRef}) => {
    
 
 
@@ -10,6 +10,7 @@ const VideoPlayer = ({videoSrc,loading,setVideoSrc,handleUpload}) => {
       {videoSrc ? (
         <video
           src={videoSrc}
+          ref={videoRef}
           autoPlay
           onEnded={()=>setVideoSrc(null)}
           muted
@@ -24,7 +25,7 @@ const VideoPlayer = ({videoSrc,loading,setVideoSrc,handleUpload}) => {
                 </div>
             ):(
                 <div className='absolute w-full h-full text-white flex justify-center items-center  '>
-                    <h4 className='w-full text-center mx-auto font-bold '>Upload</h4>
+                    <h4 className='w-full text-center mx-auto font-bold '>Upload Video</h4>
                     <input className='absolute cursor-pointer w-full h-full opacity-0'  type="file" accept="video/*" onChange={handleUpload}/>
                 </div>
             )}

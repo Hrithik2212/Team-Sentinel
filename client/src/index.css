@@ -62,7 +62,7 @@
 
 body{
   background-color: var(--primary-color);
-  max-height:100vh;
+  height:100vh;
 }
 
 table, th, td {
