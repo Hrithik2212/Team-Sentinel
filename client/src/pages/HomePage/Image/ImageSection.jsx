@@ -10,48 +10,45 @@ const ImageSection = () => {
     const [show,setShow]=useState(null)
 
   
-    const sendImagesToBackend = async (base64Images) => {
+    const sendImagesToBackend = async (files) => {
+      const formData = new FormData();
+      files.forEach((file) => formData.append('image', file)); // Append all files
+  
       setLoading(true);
       try {
-        const response = await fetch(BASE_URL + '/upload-image/', {
+        const response = await fetch('http://localhost:8000/upload-image/', {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ images: base64Images }),
+          body: formData,
         });
-    
+  
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('Failed to upload images');
         }
-    
+  
         const data = await response.json();
-        setProductData(data);
+        setProductData(data); 
       } catch (error) {
-        console.error('Error:', error);
+        console.error('Error uploading images:', error);
       } finally {
         setLoading(false);
       }
     };
     
     const handleImgUpload = (e) => {
-      console.log('called');
       const files = Array.from(e.target.files);
-    
-      const newImagePreviews = files.map((file) => {
+  
+      const previews = files.map((file) => {
         const reader = new FileReader();
         reader.readAsDataURL(file);
-    
+  
         return new Promise((resolve) => {
-          reader.onloadend = () => {
-            resolve(reader.result);
-          };
+          reader.onloadend = () => resolve(reader.result);
         });
       });
-    
-      Promise.all(newImagePreviews).then((base64Images) => {
-        setImagePreviews(base64Images)
-        sendImagesToBackend(base64Images);
+  
+      Promise.all(previews).then((base64Previews) => {
+        setImagePreviews(base64Previews);
+        sendImagesToBackend(files);
       });
     };
     
