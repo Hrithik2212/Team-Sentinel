@@ -1,13 +1,61 @@
 from groq import Groq
+import json
+from typing import List
 import os 
 import base64
 from pathlib import Path
-import json
 
 os.environ["GROQ_API_KEY"] = "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"
 
-prompt = """
-Analyze the image of a grocery product and extract the following information: 
+
+def analyze_multiple_images(image_data_urls: List[str], prompt: str) -> dict:
+    try:
+        # Initialize the Groq client
+        client = Groq()
+        
+        # Prepare the messages list with the prompt
+        messages = [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": prompt
+                    }
+                ]
+            }
+        ]
+        
+        # Append each image data URL to the messages content
+        for data_url in image_data_urls:
+            messages[0]["content"].append({
+                "type": "image_url",
+                "image_url": {
+                    "url": data_url
+                }
+            })
+        
+        # Make the API request to Groq
+        completion = client.chat.completions.create(
+            model="llama-3.2-90b-vision-preview",
+            messages=messages,
+            temperature=0,
+            max_tokens=1024,
+            top_p=1,
+            stream=False,
+            stop=None,
+            response_format={"type": "json_object"}  # Ensure response is in JSON format
+        )
+        
+        # Parse and return the JSON response
+        response_content = completion.choices[0].message.content
+        return json.loads(response_content)
+    
+    except Exception as e:
+        return {"error": str(e)}
+    
+multi_images_prompt="""
+Analyze the images of a single grocery product and extract the following information: 
 - Brand name
 - Brand details (e.g., logo/tagline)
 - Pack size
@@ -16,10 +64,6 @@ Analyze the image of a grocery product and extract the following information:
 - Product name
 - Count/quantity of items - count of the product present in the image 
 - Category of the product (e.g., personal care, household items, health supplements, etc.)
-
-Image description: The image is a low-resolution and blurry photo of a grocery product cropped from a conveyor belt.
-
-Image quality: The image is expected to have varying levels of blur and low resolution, with potential obstacles such as glare, shadows, or other environmental factors.
 
 Output format: JSON
 
@@ -30,40 +74,6 @@ Handling edge cases:
 """
 
 
-def analyze_image(image_path):
-    # Initialize the Groq client
-    client = Groq()
-
-    # Prepare the API request
-    completion = client.chat.completions.create(
-        model="llama-3.2-90b-vision-preview",
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": prompt
-                    },
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": image_to_base64_url(image_path)
-                        }
-                    }
-                ]
-            }
-        ],
-        temperature=0,
-        max_tokens=1024,
-        top_p=1,
-        stream=False,
-        stop=None,
-        response_format={"type": "json_object"}  # Ensure response is in JSON format
-    )
-
-    # Parse the structured JSON response
-    return json.loads(completion.choices[0].message.content)
 
 def image_to_base64_url(image_path):
     """
@@ -80,9 +90,8 @@ def image_to_base64_url(image_path):
         Exception: If there's an error reading the file or encoding it
     """
     try:
-        # Convert string path to Path object
-        image_path = Path(image_path)
-        
+        # Convert string path to Path object   
+        image_path = Path(image_path)     
         # Check if file exists
         if not image_path.exists():
             raise FileNotFoundError(f"Image file not found: {image_path}")
@@ -112,8 +121,10 @@ def image_to_base64_url(image_path):
         raise Exception(f"Error converting image to base64: {str(e)}")
 
 # Example usage
-image_path = '../Data/test.jpg'
-result = analyze_image(image_path)
+
+# Example usage:
+image_paths = ['../Data/test.jpg' ]
+result = analyze_multiple_images(image_paths , prompt=multi_images_prompt)
 print(result)
 
 
