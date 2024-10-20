@@ -5,10 +5,10 @@ from ultralytics import YOLO, checks
 from collections import defaultdict
 
 checks()
-model = YOLO("../Notebooks/Models/yolov11m_50epv2.pt")
+model = YOLO("../Notebooks/Models/yolov11m_50epv3.pt")
 
-def main(input_video_path = '../Data/Video/v3.mp4',     
-         output_video_path = '../Results/object_detection_trackingv1.avi',  # Output video path with .avi extension
+def main(input_video_path = '../Data/Video/v4.mp4',     
+         output_video_path = '../Results/v4.avi',  # Output video path with .avi extension
          needs_json_file = False,
          output_json_path = '../Results/object_detection_trackingv1.json'  # Output JSON path
         ):

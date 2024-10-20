@@ -8,7 +8,7 @@ import numpy as np
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
 checks()
-model = YOLO("../Notebooks/Models/yolov11m_50epv2.pt")
+model = YOLO("../Notebooks/Models/yolov11m_50epv3.pt")
 
 def is_blurry(image, threshold=100.0):
     """Determine if an image is blurry using the variance of the Laplacian."""
@@ -17,8 +17,8 @@ def is_blurry(image, threshold=100.0):
     return laplacian_var < threshold, laplacian_var
 
 def main(
-    input_video_path='../Data/Video/v3.mp4',
-    output_video_path='../Results/object_detection_trackingv1.avi',
+    input_video_path='../Data/Video/v4.mp4',
+    output_video_path='../Results/v4.avi',
     needs_json_file=False,
     output_json_path='../Results/object_detection_trackingv1.json',
     batch_size=32,  # Number of frames per batch
