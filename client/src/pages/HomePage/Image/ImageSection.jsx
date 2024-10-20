@@ -132,7 +132,7 @@ const ImageSection = () => {
                              {productData?.state &&(
                                 <tr>
                                          <td>State</td>
-                                         <td className={`${productData?.state ==="fresh" ?("bg-green-500"):("bg-red-500")}`}></td> 
+                                         <td className={`${productData?.state ==="fresh" ?("bg-green-700 fonfont-t-bold"):("bg-red-500 bold")}`}></td> 
                                </tr>
                              )}
 

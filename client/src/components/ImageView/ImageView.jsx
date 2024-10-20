@@ -7,14 +7,20 @@ const ImageView = ({ imgSrc, loading, handleImgUpload }) => {
         <div className="w-full h-full relative flex gap-2">
       
               <input className='absolute cursor-pointer w-full h-full opacity-0' type="file" accept="image/*" multiple onChange={handleImgUpload} />
-              {imgSrc.map((src, index) => (
+              <img
+                    src={imgSrc[0]}
+                    alt={`Uploaded Preview`}
+                    className="w-full h-full rounded-lg" 
+                  />
+              
+              {/* {imgSrc.map((src, index) => (
                   <img
                     key={index}
                     src={src}
                     alt={`Uploaded Preview ${index + 1}`}
                     className="w-1/2 h-full rounded-lg" 
                   />
-              ))}
+              ))} */}
         </div>
        
       ) : (

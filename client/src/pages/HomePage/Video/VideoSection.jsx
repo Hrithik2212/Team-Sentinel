@@ -135,18 +135,9 @@ const VideoSection = () => {
                                 {productData[index]?.entities.state &&(
                                    <tr>
                                             <td>State</td>
-                                            <td className={`${productData[index]?.entities.state ==="fresh" ?("text-green-500"):("text-red-500")}`}>{productData[index]?.entities.state}</td> 
+                                            <td className={`${productData[index]?.entities.state ==="fresh" ?("text-green-700 font-bold"):("text-red-500 font-bold")}`}>{productData[index]?.entities.state}</td> 
                                   </tr>
-                                )}
-
-                                
-                               
-                                
-                                
-                                
-                               
-                                
-                                
+                                )}  
                             </tbody>
                             
                         </table>
