@@ -66,7 +66,6 @@ const VideoSection = () => {
       <div className='shadow-lg pb-5 mx-auto w-full  h-full overflow-y-scroll md:w-[30%] bg-white'>
         {productData ? (
             <React.Fragment>
-            <h4 className='w-full text-right px-5 py-2'>Count:- 15</h4>
             {productData?.map((product,index) => (
                 <div className='w-full cursor-pointer border-b' onClick={()=>setShow(index)} key={index}>
                     <ProductCard  product={product} />
@@ -79,38 +78,75 @@ const VideoSection = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                          <td>Tracker Id</td>
-                                          <td>{productData[index]?.track_id}</td> 
-                                </tr>
-                                <tr>
-                                          <td>Class Name</td>
-                                          <td>{productData[index]?.entities.product_name}</td> 
-                                </tr>
-                                <tr>
-                                          <td>Category</td>
-                                          <td>{productData[index]?.entities.category}</td> 
-                                </tr>
-                                <tr>
-                                          <td>Brand Name</td>
-                                          <td>{productData[index]?.entities.brand_name}</td> 
-                                </tr>
-                                <tr>
-                                          <td>Brand Details</td>
-                                          <td>{productData[index]?.entities.brand_details}</td> 
-                                </tr>
-                                <tr>
-                                          <td>Pack Size</td>
-                                          <td>{productData[index]?.entities.pack_size}</td> 
-                                </tr>
-                                <tr>
-                                          <td>Expiry Date</td>
-                                          <td>{productData[index]?.entities.expiry_date}</td> 
-                                </tr>
-                                <tr>
-                                          <td>MRP</td>
-                                          <td>{productData[index]?.entities.mrp}</td> 
-                                </tr>
+                                {productData[index]?.track_id &&(
+                                  <tr>
+                                            <td>Tracker Id</td>
+                                            <td>{productData[index]?.track_id}</td> 
+                                  </tr>
+                                )}
+                                {productData[index]?.entities.product_name &&(
+                                   <tr>
+                                    <td>Class Name</td>
+                                    <td>{productData[index]?.entities.product_name}</td> 
+                                  </tr>
+                                )}
+                                {productData[index]?.entities.category &&(
+                                   <tr>
+                                      <td>Category</td>
+                                      <td>{productData[index]?.entities.category}</td> 
+                                    </tr>
+                                )}
+                                {productData[index]?.entities.brand_name &&(
+                                   <tr>
+                                      <td>Brand Name</td>
+                                      <td>{productData[index]?.entities.brand_name}</td> 
+                                    </tr>
+                                )}
+                                {productData[index]?.entities.brand_details &&(
+                                   <tr>
+                                      <td>Brand Details</td>
+                                      <td>{productData[index]?.entities.brand_details}</td> 
+                                    </tr>
+                                )}
+                                {productData[index]?.entities.pack_size &&(
+                                    <tr>
+                                              <td>Pack Size</td>
+                                              <td>{productData[index]?.entities.pack_size}</td> 
+                                    </tr>
+                                )}
+                                {productData[index]?.entities.expiry_date &&(
+                                   <tr>
+                                            <td>Expiry Date</td>
+                                            <td>{productData[index]?.entities.expiry_date}</td> 
+                                  </tr>
+                                )}
+                                {productData[index]?.entities.mrp &&(
+                                   <tr>
+                                            <td>MRP</td>
+                                            <td>{productData[index]?.entities.mrp}</td> 
+                                  </tr>
+                                )}
+                                {productData[index]?.entities.estimated_shelf_life &&(
+                                   <tr>
+                                            <td>Estimated Shelf Life</td>
+                                            <td>{productData[index]?.entities.estimated_shelf_life}</td> 
+                                  </tr>
+                                )}
+                                {productData[index]?.entities.state &&(
+                                   <tr>
+                                            <td>State</td>
+                                            <td className={`${productData[index]?.entities.state ==="fresh" ?("bg-green-500"):("bg-red-500")}`}></td> 
+                                  </tr>
+                                )}
+
+                                
+                               
+                                
+                                
+                                
+                               
+                                
+                                
                             </tbody>
                             
                         </table>

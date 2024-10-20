@@ -4,16 +4,19 @@ const ImageView = ({ imgSrc, loading, handleImgUpload }) => {
   return (
     <div className="relative flex h-full border w-full items-center justify-center bg-[#111418] overflow-hidden">
       {imgSrc && imgSrc.length > 0 ? (
-        <div className="flex space-x-2">
-          {imgSrc.map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              alt={`Uploaded Preview ${index + 1}`}
-              className="w-1/2 h-auto rounded-lg" // Adjust width to fit 2 images
-            />
-          ))}
+        <div className="w-full h-full relative flex gap-2">
+      
+              <input className='absolute cursor-pointer w-full h-full opacity-0' type="file" accept="image/*" multiple onChange={handleImgUpload} />
+              {imgSrc.map((src, index) => (
+                  <img
+                    key={index}
+                    src={src}
+                    alt={`Uploaded Preview ${index + 1}`}
+                    className="w-1/2 h-full rounded-lg" 
+                  />
+              ))}
         </div>
+       
       ) : (
         <div className='w-full h-full relative'>
           {loading ? (

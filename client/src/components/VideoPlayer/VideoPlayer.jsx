@@ -14,7 +14,7 @@ const VideoPlayer = ({videoSrc,loading,setVideoSrc,handleUpload,videoRef}) => {
           autoPlay
           onEnded={()=>setVideoSrc(null)}
           muted
-          className="h-full w-full object-cover"
+          className="h-full w-full object-fit"
         />
       ) : (
         <div className='w-full h-full relative '>

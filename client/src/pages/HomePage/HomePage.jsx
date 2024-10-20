@@ -5,7 +5,7 @@ import VideoSection from './Video/VideoSection';
 
 
 const HomePage = () => {
-  const [choice,setChoice]=useState(true)
+  const [choice,setChoice]=useState(false)
   
 
     return(
