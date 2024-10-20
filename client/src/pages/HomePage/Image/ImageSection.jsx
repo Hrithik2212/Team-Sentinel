@@ -81,58 +81,58 @@ const ImageSection = () => {
                                          <td>{productData?.track_id}</td> 
                                </tr>
                              )}
-                             {productData?.entities.product_name &&(
+                             {productData?.product_name &&(
                                 <tr>
                                  <td>Class Name</td>
-                                 <td>{productData?.entities.product_name}</td> 
+                                 <td>{productData?.product_name}</td> 
                                </tr>
                              )}
-                             {productData?.entities.category &&(
+                             {productData?.category &&(
                                 <tr>
                                    <td>Category</td>
-                                   <td>{productData?.entities.category}</td> 
+                                   <td>{productData?.category}</td> 
                                  </tr>
                              )}
-                             {productData?.entities.brand_name &&(
+                             {productData?.brand_name &&(
                                 <tr>
                                    <td>Brand Name</td>
-                                   <td>{productData?.entities.brand_name}</td> 
+                                   <td>{productData?.brand_name}</td> 
                                  </tr>
                              )}
-                             {productData?.entities.brand_details &&(
+                             {productData?.brand_details &&(
                                 <tr>
                                    <td>Brand Details</td>
-                                   <td>{productData?.entities.brand_details}</td> 
+                                   <td>{productData?.brand_details}</td> 
                                  </tr>
                              )}
-                             {productData?.entities.pack_size &&(
+                             {productData?.pack_size &&(
                                  <tr>
                                            <td>Pack Size</td>
-                                           <td>{productData?.entities.pack_size}</td> 
+                                           <td>{productData?.pack_size}</td> 
                                  </tr>
                              )}
-                             {productData?.entities.expiry_date &&(
+                             {productData?.expiry_date &&(
                                 <tr>
                                          <td>Expiry Date</td>
-                                         <td>{productData?.entities.expiry_date}</td> 
+                                         <td>{productData?.expiry_date}</td> 
                                </tr>
                              )}
-                             {productData?.entities.mrp &&(
+                             {productData?.mrp &&(
                                 <tr>
                                          <td>MRP</td>
-                                         <td>{productData?.entities.mrp}</td> 
+                                         <td>{productData?.mrp}</td> 
                                </tr>
                              )}
-                             {productData?.entities.estimated_shelf_life &&(
+                             {productData?.estimated_shelf_life &&(
                                 <tr>
                                          <td>Estimated Shelf Life</td>
-                                         <td>{productData?.entities.estimated_shelf_life}</td> 
+                                         <td>{productData?.estimated_shelf_life}</td> 
                                </tr>
                              )}
-                             {productData?.entities.state &&(
+                             {productData?.state &&(
                                 <tr>
                                          <td>State</td>
-                                         <td className={`${productData?.entities.state ==="fresh" ?("bg-green-500"):("bg-red-500")}`}></td> 
+                                         <td className={`${productData?.state ==="fresh" ?("bg-green-500"):("bg-red-500")}`}></td> 
                                </tr>
                              )}
 
