@@ -10,7 +10,7 @@ const NavBar=()=>{
         
           <section style={{"fontSize":"var(--secondary-font-size)"}} className='font-[var(--secondary-font-weight)] '>
               <Link to="/" className='flex gap-3 justify-center'>
-                <h1 className=''>FlipKart Grid</h1>
+                <h1 className=''>FlipKart GRID 6.0 - Conveyor Belt Demonstration(Imitated)</h1>
               </Link>
           </section>
           <section className='relative'>

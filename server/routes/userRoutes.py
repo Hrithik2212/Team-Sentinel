@@ -381,7 +381,7 @@ def perishable_analyze(image_url, threshold=0.9):
         "category": analysis_result.get("category", None),
         "estimated_shelf_life": analysis_result.get("estimated_shelf_life", None),
         "state": predicted_label,  # classifier_model prediction ('fresh' or 'rotten')
-        "freshness": (1-probability) *2.5  # classifier_model probability
+        "freshness": (1-probability)   # classifier_model probability
     }
     print(result)
     return result
@@ -538,10 +538,18 @@ def process_video(
                             })
 
                             # Draw bounding box and label on the frame
-                            cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 2)
-                            label = f'{class_name} ID: {track_id}'
-                            cv2.putText(frame, label, (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-                                        (255, 0, 0), 2)
+                            if 'eris' in normalize_string(class_name):
+                                cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 0, 255), 2)
+                                label = f'{class_name} ID: {track_id}'
+                                cv2.putText(frame, label, (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
+                                            (0, 0, 255), 2)
+
+
+                            else :
+                                cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 2)
+                                label = f'{class_name} ID: {track_id}'
+                                cv2.putText(frame, label, (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
+                                            (255, 0, 0), 2)
 
                         # Write the processed frame to the output video
                         out.write(frame)
