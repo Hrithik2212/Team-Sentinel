@@ -2,18 +2,15 @@
 
 # Demonstration 
 
-* The goal is to immitate conveyor belt and to detect , track , classify , perform OCR and extract entities on ecommerce products moving on a conveyor belt 
-
-<video width="1080" height="720" controls>
-  <source src="Submission/Conveyor_Belt_Simulation_Sentinels.mp4" type="video/mp4">
-</video>
-
+* The goal is to immitate conveyor belt and to detect , track , classify , perform OCR and extract entities on ecommerce products moving on a conveyor belt
+  
+[![Watch the video](https://img.youtube.com/vi/Z_sjBRmlVX8/0.jpg)](https://youtu.be/Z_sjBRmlVX8?t=2s)
 
 # Smart Vision System Architecture
 
 The **Smart Vision System** leverages AWS cloud infrastructure and machine learning models to provide real-time video processing, image classification, object detection, object tracking, OCR, and entity extraction. The system is designed to securely stream video from a conveyor belt, analyze the footage for key insights, and display the results to operators through an intuitive dashboard.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/b7ffe4ad-b97f-46a7-84f9-843e932c54e8)
 
 
 ### 1.Input
