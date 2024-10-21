@@ -1,8 +1,8 @@
 *.png
 *.avi
 *.csv
-*.mp4
 .gitignore
+Data/Video/*
 # Logs
 logs
 *.log
@@ -41,3 +41,7 @@ Data/back.jpeg
 Data/front.jpeg
 Data/front.webp
 Data/test.jpg
+Data/v6.mp4
+Data/v7.mp4
+Results/object_detection_tracking_ocrv1.mp4
+Submission/Conveyor_Belt_Simulation.mp4
