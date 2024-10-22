@@ -2,9 +2,10 @@
 
 # Demonstration 
 
-* The goal is to immitate conveyor belt and to detect , track , classify , perform OCR and extract entities on ecommerce products moving on a conveyor belt
-  
+* The goal is to immitate conveyor belt and to detect , track , classify , perform OCR and extract entities on ecommerce products moving on a conveyor belt 
+
 [![Watch the video](https://img.youtube.com/vi/Z_sjBRmlVX8/0.jpg)](https://youtu.be/Z_sjBRmlVX8?t=2s)
+
 
 # Smart Vision System Architecture
 
@@ -73,3 +74,101 @@ The **Smart Vision System** leverages AWS cloud infrastructure and machine learn
 
 ## Simulation Video:
 - A simulation of the system demonstrates how the camera captures real-time footage, how the backend processes the video, and how the operator dashboard displays the results.
+
+
+## File Structure (Nvigate throught the project)
+
+
+```
+├── client/                   # React frontend application
+│   ├── favicon.svg                   # Website favicon
+│   ├── index.html                    # Entry HTML file
+│   ├── postcss.config.js             # PostCSS configuration for Tailwind
+│   ├── public/                       # Public assets directory
+│   │   └── vite.svg                  # Vite logo
+│   ├── src/                      # Source code directory
+│   │   ├── App.css                   # Main application styles
+│   │   ├── App.jsx                   # Root application component
+│   │   ├── assets/                   # Static assets
+│   │   ├── components/             # Reusable UI components
+│   │   │   ├── Button/               # Button component
+│   │   │   ├── ImageView/            # Image viewing component
+│   │   │   ├── ProductCard/          # Product display component
+│   │   │   └── VideoPlayer/          # Video playback component
+│   │   ├── context/                # React context providers
+│   │   │   └── AuthContext.jsx       # Authentication context
+│   │   ├── hooks/                  # Custom React hooks
+│   │   │   ├── hooks.jsx             # General purpose hooks
+│   │   │   └── useFetch.jsx          # Data fetching hook
+│   │   ├── pages/                  # Application pages
+│   │   │   ├── HomePage/             # Home page component
+│   │   │   └── Login/                # Login page component
+│   │   └── utils/                  # Utility functions
+│   │       └── baseApi.jsx           # API configuration
+│   ├── tailwind.config.js            # Tailwind CSS configuration
+│   └── vite.config.js                # Vite bundler configuration
+│
+├── server/                   # FastAPI backend
+│   ├── controllers/               # Core logic handlers (ML, Video Stream and Other utilities)
+│   │   ├── auth.py                   # Authentication controller
+│   │   ├── entity_extraction.py      # Entity extraction logic
+│   │   ├── freshness_classfier.py    # Freshness classification
+│   │   ├── user_controller.py        # User management
+│   │   ├── utils.py                  # Utility functions
+│   │   └── video_stream.py           # Video streaming handler (Object Detection and Tracking)
+│   ├── database/                 # Database related files
+│   │   ├── create_db.py              # Database initialization
+│   │   ├── database.py               # Database configuration
+│   │   ├── models/                   # Database models
+│   │   │   └── userModel.py          # User model definition
+│   │   └── schemas.py                # Pydantic schemas
+│   ├── main.py                       # FastAPI application entry
+│   └── routes/                   # API routes
+│       ├── streamRoutes.py           # Video Streaming and Processing Endpoints 
+│       └── userRoutes.py             # User-related endpoints
+│
+├── Data/                    # Dataset storage
+│   ├── clean_sdf_2400.csv            # Cleaned dataset
+│   ├── front.webp                    # Front image asset
+│   ├── home_sdf_marketing_sample.csv # Marketing data
+│   └── Video/                     # Video dataset directory(contains training andf testing Videos)
+│
+├── Notebooks/               # Jupyter notebooks (ML EDA , Training and Testing Notebooks)
+│   ├── 01_EDA_OCR.ipynb                                                      # Exploratory Data Analysis and GOT OCR2.0 testing 
+│   ├── 02b_Yolov11_Object_Detection_Inference.ipynb                          # Inference notebook (for Yolov11 trained model on video )
+│   ├── 02_YoloV11_ObjectDetection.ipynb                                      # Training notebook - Yolov11 (MAP50 -98.7 %)
+│   ├── 03-freshness-classifier-model.ipynb                                   # Training Notebook - MobileNetv2 (Accuracy -98 %)
+│   ├── 04_Architecture_Diagram.ipynb # System architecture
+│   ├── Models/             # Trained model files
+│   │   ├── mobilenetv2_freshness_classifier.pth                              # Freshness classifier model
+│   │   ├── yolov11m_30ep.pt 
+│   │   ├── yolov11m_50epv1.pt 
+│   │   ├── yolov11m_50epv2.pt
+│   │   ├── yolov11m_50epv3.pt                                                # Final Model for Object Detection 
+│   │   └── yolov11n_v1.pt   
+│   └── runs/                                                                 # Training runs output
+│
+├── PyScripts/             # Utility Python scripts to Test Models and other utility functions in runtime 
+│   ├── analyze_freshness.py                  # Freshness analysis script
+│   ├── analyz_multiple_images.py             # Batch image analysis
+│   ├── avi2mp4.py                            # Video format converter
+│   ├── batch_process_detection_tracking.py   # Batch processing for detection and tracking 
+│   ├── detection_ocr.py                      # OCR implementation
+│   ├── download_youtube_video.py             # Video downloader
+│   ├── freshenss_script.py                   # Freshness checking
+│   ├── freshness_classifier.py               # Classifier implementation
+│   ├── save_img_objs.py                      # Image object saver along with detection and tracking 
+│   ├── save_imgs_without_blur.py             # Image processing
+│   ├── test_ocr.py                           # OCR testing
+│   ├── verify_cuda.py                        # CUDA verification
+│   └── yolo_obj_trackiing.py                 # YOLO tracking test 
+│
+├── Results/              # Output directory
+│   └── Cropped_Images/                       # Processed images
+│
+├── Submission/                            # Project submission
+│   ├── TeamSentinels_Submission.pptx          # Presentation
+│   └── TeamSentinelSubmission.pdf             # Documentation
+│
+└── requirements.txt     # Python dependencies
+```
