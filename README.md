@@ -1,8 +1,9 @@
 # Smart-Vision-System-Ecommerce-Warehouse
 
-# Demonstration 
+# Video Demonstration 
 
-* The goal is to immitate conveyor belt and to detect , track , classify , perform OCR and extract entities on ecommerce products moving on a conveyor belt 
+* The goal is to immitate conveyor belt and to detect , track , classify , perform OCR and extract entities on ecommerce products moving on a conveyor belt
+* Click on the following image for the video
 
 [![Watch the video](https://img.youtube.com/vi/Z_sjBRmlVX8/0.jpg)](https://youtu.be/Z_sjBRmlVX8?t=2s)
 
